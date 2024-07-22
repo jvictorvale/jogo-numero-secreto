@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
+    --bg-color: #40534C;
+    --primary-color: #E2DFD0;
+    --btn-hover: #D6BD98;
+
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1.25em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 2.5em;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+.btn-jogar {
+    padding: 0.5em 1.5em;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 0.5em;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+.btn-jogar:hover {
+    background: var(--btn-hover);
+}
